@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType><TargetFramework>net8.0-windows</TargetFramework><UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings><Nullable>enable</Nullable><ApplicationHighDpiMode>PerMonitorV2</ApplicationHighDpiMode>
+    <AssemblyName>GpuMonitoring.Windows</AssemblyName><Product>GPU Monitoring Windows</Product>
+  </PropertyGroup>
+  <ItemGroup><ProjectReference Include="../GpuMonitoring.Core/GpuMonitoring.Core.csproj"/></ItemGroup>
+</Project>

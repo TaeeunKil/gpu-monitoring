@@ -1,0 +1,33 @@
+{
+  "updatedAt": "2026-11-16T03:00:00Z",
+  "refreshing": false,
+  "servers": [
+    {
+      "id": "demo-a",
+      "hostname": "compute-alpha",
+      "role": "LLM inference demo",
+      "status": "live",
+      "errors": [],
+      "gpus": [
+        {
+          "index": 0,
+          "model": "RTX 4090",
+          "uuid": "demo-gpu-0",
+          "totalMiB": 24576,
+          "usedMiB": 18000,
+          "utilization": 0,
+          "source": "fabricated example",
+          "processes": [
+            {
+              "pid": 1000,
+              "owner": "Example LLM",
+              "container": "example-inference",
+              "usedMiB": 17400,
+              "models": ["example/model"]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
